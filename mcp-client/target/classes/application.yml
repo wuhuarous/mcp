@@ -1,0 +1,24 @@
+spring:
+  application.name: mcp-client
+  ai:
+    mcp:
+      client:
+        #??IO ???????????????
+#        stdio:
+#          servers-configuration: classpath:mcp-server-config.json
+        enabled: true
+        name: my-mcp-client
+        version: 1.0.0
+        request-timeout: 30s
+        type: SYNC  # or ASYNC for reactive applications
+        #??????? TTP/HTTPS ?????????????????????????
+        sse:
+            connections:
+              webflux-mcp-server:
+                url: http://localhost:8081
+
+
+    deepseek:
+      api-key: sk-a2dea30a7f7e423b98faeecb0a620749
+      base-url: https://api.deepseek.com
+      model: deepseek-reasoner

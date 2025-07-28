@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.baseus.mcpserver.McpServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.967 s -- in com.baseus.mcpserver.McpServerApplicationTests
